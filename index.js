@@ -42,7 +42,7 @@ module.exports = function (find_image) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0: return [4 /*yield*/, puppeteer.launch({
-                        executablePath: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+                        executablePath: "/usr/bin/google-chrome",
                         headless: true,
                         slowMo: 150
                     })["catch"](function (e) {
